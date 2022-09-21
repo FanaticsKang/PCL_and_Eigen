@@ -18,6 +18,4 @@ target_link_libraries (ply_transform ${PCL_LIBRARIES})
 add_executable (my_point_t my_point_t.cc)
 target_link_libraries (my_point_t  ${PCL_LIBRARIES})
 
-message(-----------------------)
-message(${PCL_LIBRARIES})
-message(-----------------------)
+add_executable (optimize optimize.cc)
